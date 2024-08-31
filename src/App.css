@@ -1,0 +1,12 @@
+.row{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h100{
+    height: calc(100vh - 64px);
+}
+
+.h70{
+    height: calc(20vh - 64px);
+}
