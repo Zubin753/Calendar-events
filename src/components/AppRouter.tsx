@@ -13,13 +13,11 @@ const AppRouter = () => {
         isAuth
             ?
         <Routes>
-
             {privateRoutes.map(r =>
                 <Route path={r.path} element={ <r.component/> } key={r.path} />
             )}
                 <Route path={'*'} element={<Navigate to={RouteNames.EVENT} replace />}/>
         </Routes>
-
             :
         <Routes>
             {publicRoutes.map(r =>

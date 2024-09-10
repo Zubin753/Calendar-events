@@ -28,10 +28,10 @@ const Event: React.FC = () => {
 
     return (
         <Layout>
-            <Row justify={"center"} align={"middle"} className="h70">
+            <Row justify={"center"} align={"middle"} className="h50">
 
                 <EventCalendar events={event.events}/>
-                <Row justify="center">
+                <Row justify="center" className={"button--add"}>
                     <Button onClick={() => setModalVisible(true)}>Добавить событие</Button>
                 </Row>
                 <Modal title='Добавить событие'

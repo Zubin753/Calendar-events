@@ -22,7 +22,8 @@ const EventCalendar: FC<EventCalendarProps> = ({events}) => {
     }
 
     return (
-        <Calendar dateCellRender={dateCellRender}/>
+
+        <Calendar className={"cal"} dateCellRender={dateCellRender}/>
     );
 };
 

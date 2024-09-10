@@ -38,7 +38,7 @@ const EventForm: FC<EventFromProps> = ({guest, submit}) => {
     }
 
     return (
-        <Form onFinish={submitForm}>
+        <Form onFinish={submitForm} className={"form"}>
             <Form.Item label="Название события"
                        name="description"
                        rules={[rules.required()]}>

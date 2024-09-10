@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import {Layout} from "antd";
 import './App.css'
 import {useAction} from "./hooks/useMyDispatch";
-import login from "./pages/Login";
+
 import {IUser} from "./models/IUser";
 
 
