@@ -7,6 +7,27 @@
     height: calc(100vh - 64px);
 }
 
-.h70{
-    height: calc(20vh - 64px);
+.h50{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: calc(10vh - 64px);
+    width: 70%;
+}
+
+.cal{
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form  button{
+    position: absolute;
+    right: 50px;
 }

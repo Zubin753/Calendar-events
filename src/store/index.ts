@@ -3,7 +3,7 @@ import {thunk} from 'redux-thunk'
 import {authReducer} from "./reducers/auth";
 import {eventReducer} from "./reducers/event";
 
-const rootReducer : any = combineReducers({
+const rootReducer : any = combineReducers   ({
     auth: authReducer,
     event: eventReducer,
 })
